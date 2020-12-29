@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Buffalo Check Fleece Jumpsuit",
+    "brand": "Carter's | Baby",
+    "size": "9M",
+    "image": "https://cdn-fsly.yottaa.net/578855e22bb0ac10350002d6/www.carters.com/v~4b.6f/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw422d7eb5/productimages/1J167010.jpg?sw=800&sh=1000&sfrm=jpg&yocs=3e_35_",
+    "condition": "Good"
+  },
+  {
+    "name": "French Terry Jumpsuit",
+    "brand": "Carter's | Baby",
+    "size": "6M",
+    "image": "https://cdn-fsly.yottaa.net/578855e22bb0ac10350002d6/www.carters.com/v~4b.6f/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwad620b75/productimages/1J944310.jpg?sw=800&sh=1000&sfrm=jpg&yocs=3e_35_",
+    "condition": "Fair"
+  },
+  {
+    "name": "Graphic Tee",
+    "brand": "OshKosh | Baby",
+    "size": "12M",
+    "image": "https://cdn-fsly.yottaa.net/5b1562070b5344395e3278e9/www.oshkosh.com/v~4b.4d/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dwb2d4359f/productimages/1L804120.jpg?sw=800&sh=1000&sfrm=jpg&yocs=24_27_",
+    "condition": "New With Tags"
+  },
+  {
+    "name": "Graphic Tee",
+    "brand": "OshKosh | Baby",
+    "size": "18M",
+    "image": "https://cdn-fsly.yottaa.net/5b1562070b5344395e3278e9/www.oshkosh.com/v~4b.4d/dw/image/v2/AAMK_PRD/on/demandware.static/-/Sites-carters_master_catalog/default/dw6d16db51/productimages/1L804125.jpg?sw=800&sh=1000&sfrm=jpg&yocs=24_27_",
+    "condition": "Good"
+  }
+]

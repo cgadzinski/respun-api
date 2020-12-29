@@ -1,0 +1,7 @@
+org: respun
+app: respun-api
+component: express
+name: express-starter
+
+inputs:
+  src: ./
