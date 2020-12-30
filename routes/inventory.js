@@ -1,17 +1,15 @@
 const router = require('express').Router();
-const fs = require('fs');
+const inventoryController = require('./../controllers/inventory');
+// const { catchErrors } = require('./../helpers/errorHandlers');
 
-const inventoryFile = './data/inventory.json';
+router.get('/', async (req, res, next) => {
+  try {
+    const data = await inventoryController.getLatestInventory();
+    res.json(data)
+  } catch(err) {
+    const error = new Error(err);
+    next(error);
+  }
+});
 
-router.route('/')
-  .get((req, res) => {
-    fs.promises.readFile(inventoryFile, { encoding: 'utf-8' })
-      .then((data) => {
-        res.json(JSON.parse(data));
-      })
-      .catch(() => {
-        res.status(400).send('There has been an error with your request');
-      })
-  });
-
-  module.exports = router;
+module.exports = router;

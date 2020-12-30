@@ -11,14 +11,19 @@
     "mongoose": "^5.11.9"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "mocha-junit-reporter": "^2.0.0",
     "nodemon": "^1.18.3",
+    "sinon": "^9.2.2",
+    "supertest": "^6.0.1",
     "webpack": "^5.11.1",
     "webpack-dev-middleware": "^4.0.2",
     "webpack-hot-middleware": "^2.25.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "nodemon app.js"
+    "test": "mocha 'tests/**/*.js' --recursive --timeout 60000 --exit",
+    "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC"
