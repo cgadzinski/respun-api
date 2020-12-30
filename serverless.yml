@@ -1,7 +1,7 @@
 org: respun
 app: respun-api
 component: express
-name: express-starter
+name: inventory-api
 
 inputs:
   src: ./
